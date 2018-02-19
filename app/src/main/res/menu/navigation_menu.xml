@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_start"
+        android:title="Start" />
+
+    <item android:id="@+id/nav_overview"
+        android:title="Overview" />
+
+    <item android:id="@+id/nav_textbook"
+        android:title="Textbook" />
+
+    <item android:id="@+id/nav_objectives"
+        android:title="Objectives" />
+
+    <item android:id="@+id/nav_schedule"
+        android:title="Schedule" />
+
+    <item android:id="@+id/nav_policies"
+        android:title="Policies" />
+
+    <item android:id="@+id/nav_professor"
+        android:title="Professor" />
+
+</menu>

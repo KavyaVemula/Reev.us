@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Textbooks
+
+ A. Stanoyevitch, Introduction to Cryptography with Mathematical Foundations and Computer Implementations, 1st Ed. 2010. (IC).
+
+ N. Ferguson, et.al., Cryptography engineering: design principles and practical applications, John Wiley  Sons, 2011. (CE).
+
+The professor also recommends the following books for further reference:
+
+ J. Katz, et.al., Introduction to Modern Cryptography. 2007
+ C. Paar, et.al., Understanding Cryptography: A Textbook for Students and Practitioners. 2010.
+Further online resources include:
+
+ iLearn for keeping records of assignment grades.
+ Project submission guidelines for this course.
+ Coding style guidelines for this course.
+ A how to guide to use the command line (or shell).
+ The official Java reference (from Oracle)."
+        android:textColor="@color/link_text_material_light"
+        android:textSize="14sp" />
+</LinearLayout>

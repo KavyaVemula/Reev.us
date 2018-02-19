@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Reev.us</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="Course_Description">This course will introduce the students to fundamental risks, vulnerabilities and threats to mobile and cloud based applications and the countermeasures that must be implemented to reduce risks to these applications and associated infrastructure with a specific focus on cryptography. Topics covered include risk assessment; foundations of cryptography; symmetric and public key cryptography; stream ciphers; block ciphers and hashing algorithms; public key infrastructures; cryptographic algorithms such as RSA, DES, and AES; cryptographic protocols; key exchange protocols such as Diffie-Hellman, RSA and IKE; authentication protocols using Java APIs; and government regulations and cryptographic standards.</string>
+
+
+</resources>

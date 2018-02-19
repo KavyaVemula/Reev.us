@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Description"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Course_Description"
+        android:textColor="@color/abc_search_url_text_selected"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prerequisites"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MATH 250 - Discrete Mathematics
+CMPT 422 - Computer Organization and Architecture
+MSCS 501 - Object-Oriented Programming
+MSCS 502 - Advanced Data Structures
+This course requires proficiency in the areas of discrete mathematics and algebra. Also, make sure you feel confident in the Java programming language since we will implement some of the algorithms covered."
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You will be submitting assignments to GitHub. You will need to create an account upon registration for the course.
+Credit Hours: 4"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not sure if this course is right for you?"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quite honestly, this is a difficult course. My recommendation is to attend lectures, write Java programs, study hard, code some more, start your project early, and seek help from the professor when you need it. If this is something you are committed do, this course might be right for you."
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:textSize="12sp" />
+</LinearLayout>

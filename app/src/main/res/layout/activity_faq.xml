@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.saap.kavyareddy.reevus.activity_faq">
+
+    <EditText
+        android:id="@+id/ET_input"
+        android:layout_width="215dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter text here"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <Button
+        android:id="@+id/button_decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decrypt"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        tools:layout_editor_absoluteY="463dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/TV_1"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="79B9988A8A4C1533756E44075608EC73744D3CCA7A97B8DDB0DF7D1E61B155BA"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/TV_2"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="I have a question"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <TextView
+        android:id="@+id/TV_3"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="B17D1BF0D88C6D8674B342692D8F7221199D82B65BC3DEFFA3324F566708C484"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/TV_4"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="I have an answer"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="211dp" />
+</android.support.constraint.ConstraintLayout>
